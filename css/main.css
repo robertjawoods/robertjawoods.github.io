@@ -59,6 +59,8 @@ html
     margin-right: auto;
     border: 2px solid #75DBCD;
     box-shadow: 3px 3px 15px #555960;
+    position: relative;
+    top: 30px;
 }
 
 footer 
