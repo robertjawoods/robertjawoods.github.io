@@ -24,7 +24,7 @@ html
 .menu-bar li a 
 {
     display: block;
-    color: #022b3A;
+    color: #2d3142;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -92,6 +92,23 @@ footer p
 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
+}
+
+.slideshow img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    top: 30px;
+}
+
+.demo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body
