@@ -1,0 +1,49 @@
+.menu-bar ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3; 
+    border: 1px solid #e7e7e7;
+}
+
+.menu-bar li 
+{
+    float: left;
+}
+
+.menu-bar li a 
+{
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Bonveno', sans-serif;
+    font-size: 18px;
+}
+
+.menu-bar li a:hover
+{
+    background-color: #1e90ff; 
+    color: white;
+}
+
+.menu-bar .active 
+{
+    background-color: #1e90ff; 
+    float: right;
+}
+
+.menu-bar .active li a
+{
+    color: #fff;
+}
+
+@font-face
+{
+    font-family: 'Bonveno';
+    src: local('..\BonvenoCF-Light.otf') format('opentype');
+}
+
