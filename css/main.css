@@ -1,11 +1,19 @@
+html 
+{
+    background-color:#f3f3f3; 
+}
+
 .menu-bar ul 
 {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #f3f3f3; 
+    background-color: #adacb5; 
     border: 1px solid #e7e7e7;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
 
 .menu-bar li 
@@ -16,12 +24,12 @@
 .menu-bar li a 
 {
     display: block;
-    color: gray;
+    color: #022b3A;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Bonveno', sans-serif;
-    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
 }
 
 .menu-bar li a:hover
@@ -41,9 +49,33 @@
     color: #fff;
 }
 
-@font-face
+.me-pic 
 {
-    font-family: 'Bonveno';
-    src: local('..\BonvenoCF-Light.otf') format('opentype');
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #1e90ff;
+    box-shadow: 3px 3px 15px #555960;
 }
 
+footer 
+{
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+    background-color: #adacb5;
+}
+
+footer p
+{
+    text-align: center;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+}
