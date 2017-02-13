@@ -52,15 +52,15 @@ html
 .me-pic 
 {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #75DBCD;
     box-shadow: 3px 3px 15px #555960;
     position: relative;
-    top: 30px;
+    top: 80px;
 }
 
 footer 
@@ -75,6 +75,23 @@ footer p
 {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.bio
+{
+    text-align: center;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 140px;
+}
+
+.bio p 
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
 }
 
 body
