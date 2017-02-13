@@ -34,13 +34,13 @@ html
 
 .menu-bar li a:hover
 {
-    background-color: #1e90ff; 
+    background-color: #75DBCD; 
     color: white;
 }
 
 .menu-bar .active 
 {
-    background-color: #1e90ff; 
+    background-color: #75DBCD; 
     float: right;
 }
 
@@ -57,7 +57,7 @@ html
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid #1e90ff;
+    border: 2px solid #75DBCD;
     box-shadow: 3px 3px 15px #555960;
 }
 
