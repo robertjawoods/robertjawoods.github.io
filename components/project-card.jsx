@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 function ProjectCard(props) {
     let url = "https://api.github.com/graphql";
 
-    const [key, setKey] = useState(process.env.NEXT_PUBLIC_GITHUB_API_KEY);
+    const [key, setKey] = useState(process.env.NEXT_PUBLIC_GITHUB_AUTH_TOKEN);
 
     let client = new GraphQLClient(url, {
         headers: {
